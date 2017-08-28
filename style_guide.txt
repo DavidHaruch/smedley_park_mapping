@@ -1,0 +1,10 @@
+FONTS
+-----
+
+Use the open sans family of fonts
+Trail names are labeled in italic bold
+
+TRAILS
+------
+
+Labeled with an approx 6px-10px stroke, dependent on the map dimensions

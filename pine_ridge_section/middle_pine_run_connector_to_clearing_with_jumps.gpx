@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>GPS_2017-02-05_154859</name>
+</metadata>
+<trk>
+	<name>First new bike ride</name>
+	<trkseg>
+		<trkpt lat="39.914118" lon="-75.364649">
+			<ele>52.40</ele>
+			<time>2017-02-05T15:48:59Z</time>
+		</trkpt>
+		<trkpt lat="39.914117" lon="-75.364600">
+			<ele>52.60</ele>
+			<time>2017-02-05T15:49:01Z</time>
+		</trkpt>
+		<trkpt lat="39.914120" lon="-75.364547">
+			<ele>52.60</ele>
+			<time>2017-02-05T15:49:02Z</time>
+		</trkpt>
+		<trkpt lat="39.914125" lon="-75.364494">
+			<ele>52.30</ele>
+			<time>2017-02-05T15:49:03Z</time>
+		</trkpt>
+		<trkpt lat="39.914173" lon="-75.364457">
+			<ele>51.70</ele>
+			<time>2017-02-05T15:49:04Z</time>
+		</trkpt>
+		<trkpt lat="39.914303" lon="-75.364417">
+			<ele>49.90</ele>
+			<time>2017-02-05T15:49:07Z</time>
+		</trkpt>
+		<trkpt lat="39.914305" lon="-75.364361">
+			<ele>49.90</ele>
+			<time>2017-02-05T15:49:09Z</time>
+		</trkpt>
+		<trkpt lat="39.914339" lon="-75.364298">
+			<ele>49.10</ele>
+			<time>2017-02-05T15:49:11Z</time>
+		</trkpt>
+		<trkpt lat="39.914372" lon="-75.364281">
+			<ele>48.90</ele>
+			<time>2017-02-05T15:49:12Z</time>
+		</trkpt>
+		<trkpt lat="39.914434" lon="-75.364277">
+			<ele>46.60</ele>
+			<time>2017-02-05T15:49:13Z</time>
+		</trkpt>
+		<trkpt lat="39.914495" lon="-75.364271">
+			<ele>45.30</ele>
+			<time>2017-02-05T15:49:14Z</time>
+		</trkpt>
+		<trkpt lat="39.914535" lon="-75.364254">
+			<ele>44.60</ele>
+			<time>2017-02-05T15:49:16Z</time>
+		</trkpt>
+		<trkpt lat="39.914581" lon="-75.364259">
+			<ele>43.50</ele>
+			<time>2017-02-05T15:49:17Z</time>
+		</trkpt>
+		<trkpt lat="39.914584" lon="-75.364212">
+			<ele>43.20</ele>
+			<time>2017-02-05T15:49:19Z</time>
+		</trkpt>
+		<trkpt lat="39.914601" lon="-75.364150">
+			<ele>42.80</ele>
+			<time>2017-02-05T15:49:21Z</time>
+		</trkpt>
+		<trkpt lat="39.914672" lon="-75.364077">
+			<ele>41.50</ele>
+			<time>2017-02-05T15:49:22Z</time>
+		</trkpt>
+		<trkpt lat="39.914728" lon="-75.364004">
+			<ele>40.00</ele>
+			<time>2017-02-05T15:49:23Z</time>
+		</trkpt>
+		<trkpt lat="39.914757" lon="-75.363933">
+			<ele>39.50</ele>
+			<time>2017-02-05T15:49:24Z</time>
+		</trkpt>
+		<trkpt lat="39.914818" lon="-75.363893">
+			<ele>38.80</ele>
+			<time>2017-02-05T15:49:25Z</time>
+		</trkpt>
+		<trkpt lat="39.914864" lon="-75.363844">
+			<ele>38.50</ele>
+			<time>2017-02-05T15:49:26Z</time>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#4eb4ce</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

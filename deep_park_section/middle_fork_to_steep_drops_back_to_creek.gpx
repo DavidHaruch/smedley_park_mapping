@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>GPS_2017-05-09_201435</name>
+</metadata>
+<trk>
+	<name>Afternoon Ride</name>
+	<trkseg>
+		<trkpt lat="39.925593" lon="-75.361826">
+			<ele>33.00</ele>
+			<time>2017-05-09T20:14:35Z</time>
+		</trkpt>
+		<trkpt lat="39.925525" lon="-75.361832">
+			<ele>34.20</ele>
+			<time>2017-05-09T20:14:36Z</time>
+		</trkpt>
+		<trkpt lat="39.925483" lon="-75.361860">
+			<ele>31.10</ele>
+			<time>2017-05-09T20:14:37Z</time>
+		</trkpt>
+		<trkpt lat="39.925426" lon="-75.361832">
+			<ele>32.20</ele>
+			<time>2017-05-09T20:14:38Z</time>
+		</trkpt>
+		<trkpt lat="39.925373" lon="-75.361819">
+			<ele>30.80</ele>
+			<time>2017-05-09T20:14:39Z</time>
+		</trkpt>
+		<trkpt lat="39.925316" lon="-75.361826">
+			<ele>32.20</ele>
+			<time>2017-05-09T20:14:40Z</time>
+		</trkpt>
+		<trkpt lat="39.925253" lon="-75.361785">
+			<ele>30.00</ele>
+			<time>2017-05-09T20:14:41Z</time>
+		</trkpt>
+		<trkpt lat="39.925196" lon="-75.361757">
+			<ele>31.10</ele>
+			<time>2017-05-09T20:14:42Z</time>
+		</trkpt>
+		<trkpt lat="39.925136" lon="-75.361720">
+			<ele>28.30</ele>
+			<time>2017-05-09T20:14:43Z</time>
+		</trkpt>
+		<trkpt lat="39.925054" lon="-75.361719">
+			<ele>26.40</ele>
+			<time>2017-05-09T20:14:44Z</time>
+		</trkpt>
+		<trkpt lat="39.924993" lon="-75.361700">
+			<ele>24.80</ele>
+			<time>2017-05-09T20:14:45Z</time>
+		</trkpt>
+		<trkpt lat="39.924928" lon="-75.361686">
+			<ele>24.70</ele>
+			<time>2017-05-09T20:14:46Z</time>
+		</trkpt>
+		<trkpt lat="39.924880" lon="-75.361681">
+			<ele>24.80</ele>
+			<time>2017-05-09T20:14:47Z</time>
+		</trkpt>
+		<trkpt lat="39.924825" lon="-75.361690">
+			<ele>25.80</ele>
+			<time>2017-05-09T20:14:49Z</time>
+		</trkpt>
+		<trkpt lat="39.924770" lon="-75.361699">
+			<ele>25.90</ele>
+			<time>2017-05-09T20:14:50Z</time>
+		</trkpt>
+		<trkpt lat="39.924731" lon="-75.361717">
+			<ele>25.70</ele>
+			<time>2017-05-09T20:14:51Z</time>
+		</trkpt>
+		<trkpt lat="39.924679" lon="-75.361736">
+			<ele>25.80</ele>
+			<time>2017-05-09T20:14:52Z</time>
+		</trkpt>
+		<trkpt lat="39.924631" lon="-75.361712">
+			<ele>25.80</ele>
+			<time>2017-05-09T20:14:53Z</time>
+		</trkpt>
+		<trkpt lat="39.924602" lon="-75.361704">
+			<ele>25.80</ele>
+			<time>2017-05-09T20:14:54Z</time>
+		</trkpt>
+		<trkpt lat="39.924562" lon="-75.361697">
+			<ele>25.70</ele>
+			<time>2017-05-09T20:14:56Z</time>
+		</trkpt>
+		<trkpt lat="39.924512" lon="-75.361713">
+			<ele>25.70</ele>
+			<time>2017-05-09T20:14:59Z</time>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#ff7c7c</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>
