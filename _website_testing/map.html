@@ -3,25 +3,76 @@
         <title>Google Maps test</title>
     </head>
     <style>
+    /*
+    green #A5B076
+    red #E98D58
+    white #F5F1E6
+    */
         body {
             margin: 0;
+            background-color: #F5F1E6;
+        }
+        .wrapper {
+            max-width: 800px;
+            margin: 0 auto;
         }
         #map {
             height: 70%;
+            width: 100%;
         }
     </style>
     <body>
+        <div class="wrapper">
         <h1>Smedley Park Maps testing page</h1>
         <p>Just a test of the google maps usefullness for a thing like this</p>
         <div id="map"></div>
+        </div>
         <script>
             var map;
 
             function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: 39.913908, lng: -75.359289},
+              center: {lat: 39.92, lng: -75.361},
               zoom: 15,
             });
+            // google maps styling
+            var styled_map_type = new google.maps.StyledMapType(
+                [{"elementType":"geometry","stylers":[{"color":"#ebe3cd"}]},
+                {"elementType":"labels.text.fill","stylers":[{"color":"#523735"}]},
+                {"elementType":"labels.text.stroke","stylers":[{"color":"#f5f1e6"}]},
+                {"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#c9b2a6"}]},
+                {"featureType":"administrative.land_parcel","elementType":"geometry.stroke","stylers":[{"color":"#dcd2be"}]},
+                {"featureType":"administrative.land_parcel","elementType":"labels.text.fill","stylers":[{"color":"#ae9e90"}]},
+                {"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},
+                {"featureType":"poi","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},
+                {"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#93817c"}]},
+                {"featureType":"poi.business","stylers":[{"visibility":"off"}]},
+                {"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#a5b076"}]},
+                {"featureType":"poi.park","elementType":"labels.text","stylers":[{"visibility":"off"}]},
+                {"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#447530"}]},
+                {"featureType":"road","elementType":"geometry","stylers":[{"color":"#f5f1e6"}]},
+                {"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#fdfcf8"}]},
+                {"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#f8c967"}]},
+                {"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#e9bc62"}]},
+                {"featureType":"road.highway.controlled_access","elementType":"geometry","stylers":[{"color":"#e98d58"}]},
+                {"featureType":"road.highway.controlled_access","elementType":"geometry.stroke","stylers":[{"color":"#db8555"}]},
+                {"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#806b63"}]},
+                {"featureType":"transit.line","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},
+                {"featureType":"transit.line","elementType":"labels.text.fill","stylers":[{"color":"#8f7d77"}]},
+                {"featureType":"transit.line","elementType":"labels.text.stroke","stylers":[{"color":"#ebe3cd"}]},
+                {"featureType":"transit.station","elementType":"geometry","stylers":[{"color":"#dfd2ae"}]},
+                {"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#b9d3c2"}]},
+                {"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#92998d"}]}],
+                {name: 'styled map'});
+
+            var parking_coords_array = [
+            {lat:39.914747,lng:-75.370066},
+            {lat:39.914601,lng:-75.359984},
+            {lat:39.915788,lng:-75.358236},
+            {lat:39.919627,lng:-75.363299}
+            ];
+
+            // all the coords of the trails, could be split up to color some trails differently
             var trail_coords_array = [
             [
             {lat:39.927644,lng:-75.359463},
@@ -2794,16 +2845,39 @@
             ]
             ];
 
-            for (i=0;i<48;i++) {
+            for (i=0;i<trail_coords_array.length;i++) {
             var trail_path = new google.maps.Polyline({
                 path: trail_coords_array[i],
                 geodesic: true,
-                strokeColor: '#FF0000',
-                strokeOpacity: 1.0,
-                strokeWeight: 3
+                strokeColor: '#1e3254',
+                strokeOpacity: 0.75,
+                strokeWeight: 3,
+                zIndex: i,
             });
             trail_path.setMap(map);
+            // add hover effects
+            trail_path.addListener('mouseover', function() {
+                console.log("mouse enter");
+                this.setOptions({strokeColor: 'red'});
+                console.log(this);
+            });
+            trail_path.addListener('mouseout', function() {
+                console.log("mouse enter");
+                this.setOptions({strokeColor: '#1e3254'});
+                console.log(this);
+            });
             }
+            var parking_icon = 'images/parking_icon_16x16_red.png';
+            for (i=0;i<parking_coords_array.length;i++) {
+                var parking_marker = new google.maps.Marker({
+                    position: parking_coords_array[i],
+                    map: map,
+                    icon: parking_icon,
+                    title: 'parking'
+                });
+            }
+            map.mapTypes.set('styled_map', styled_map_type);
+            map.setMapTypeId('styled_map');
         }
 
 
