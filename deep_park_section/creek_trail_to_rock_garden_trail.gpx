@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<name>GPS_2017-05-09_202110</name>
+	<name>creek_trail_to_rock_garden_trail.gpx</name>
 </metadata>
 <trk>
 	<name>Afternoon Ride</name>
 	<trkseg>
-		<trkpt lat="39.922145" lon="-75.363569">
+		<trkpt lat="39.922126" lon="-75.363535">
 			<ele>26.80</ele>
 			<time>2017-05-09T20:21:10Z</time>
+		</trkpt>
+		<trkpt lat="39.922148" lon="-75.363579">
+			<ele>26.82</ele>
+			<time>2017-05-09T20:21:10.15Z</time>
 		</trkpt>
 		<trkpt lat="39.922164" lon="-75.363631">
 			<ele>26.90</ele>
@@ -74,7 +78,23 @@
 			<ele>27.90</ele>
 			<time>2017-05-09T20:21:26Z</time>
 		</trkpt>
-		<trkpt lat="39.922475" lon="-75.364349">
+		<trkpt lat="39.922469" lon="-75.364343">
+			<ele>27.90</ele>
+			<time>2017-05-09T20:21:26.76Z</time>
+		</trkpt>
+		<trkpt lat="39.922486" lon="-75.364336">
+			<ele>27.90</ele>
+			<time>2017-05-09T20:21:26.91Z</time>
+		</trkpt>
+		<trkpt lat="39.922502" lon="-75.364316">
+			<ele>27.90</ele>
+			<time>2017-05-09T20:21:26.97Z</time>
+		</trkpt>
+		<trkpt lat="39.922516" lon="-75.364292">
+			<ele>27.90</ele>
+			<time>2017-05-09T20:21:26.99Z</time>
+		</trkpt>
+		<trkpt lat="39.922533" lon="-75.364255">
 			<ele>27.90</ele>
 			<time>2017-05-09T20:21:27Z</time>
 		</trkpt>

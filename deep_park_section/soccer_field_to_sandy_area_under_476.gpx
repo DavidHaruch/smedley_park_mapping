@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<name>GPS_2017-02-18_151536</name>
+	<name>soccer_field_to_sandy_area_under_476.gpx</name>
 </metadata>
 <trk>
 	<name>Morning Ride</name>
 	<trkseg>
-		<trkpt lat="39.923989" lon="-75.362464">
+		<trkpt lat="39.924076" lon="-75.362457">
 			<ele>26.20</ele>
 			<time>2017-02-18T15:15:36Z</time>
+		</trkpt>
+		<trkpt lat="39.924001" lon="-75.362500">
+			<ele>26.30</ele>
+			<time>2017-02-18T15:15:36.49Z</time>
 		</trkpt>
 		<trkpt lat="39.923941" lon="-75.362527">
 			<ele>26.40</ele>
@@ -182,19 +186,19 @@
 			<ele>26.80</ele>
 			<time>2017-02-18T15:16:24Z</time>
 		</trkpt>
-		<trkpt lat="39.922218" lon="-75.363369">
+		<trkpt lat="39.922231" lon="-75.363385">
 			<ele>26.80</ele>
 			<time>2017-02-18T15:16:25Z</time>
 		</trkpt>
-		<trkpt lat="39.922177" lon="-75.363408">
+		<trkpt lat="39.922198" lon="-75.363418">
 			<ele>26.80</ele>
 			<time>2017-02-18T15:16:26Z</time>
 		</trkpt>
-		<trkpt lat="39.922147" lon="-75.363447">
+		<trkpt lat="39.922167" lon="-75.363456">
 			<ele>26.90</ele>
 			<time>2017-02-18T15:16:27Z</time>
 		</trkpt>
-		<trkpt lat="39.922114" lon="-75.363492">
+		<trkpt lat="39.922138" lon="-75.363495">
 			<ele>27.00</ele>
 			<time>2017-02-18T15:16:28Z</time>
 		</trkpt>

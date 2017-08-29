@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<name>GPS_2017-05-09_195847</name>
+	<name>lownes_climb.gpx</name>
 </metadata>
 <trk>
 	<name>Afternoon Ride</name>
@@ -158,7 +158,7 @@
 			<ele>69.70</ele>
 			<time>2017-05-09T19:59:52Z</time>
 		</trkpt>
-		<trkpt lat="39.927700" lon="-75.357339">
+		<trkpt lat="39.927707" lon="-75.357379">
 			<ele>67.90</ele>
 			<time>2017-05-09T19:59:53Z</time>
 		</trkpt>

@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<name>GPS_2017-05-09_195312</name>
+	<name>always_wet_section_of_creek_trail.gpx</name>
 </metadata>
 <trk>
 	<name>Afternoon Ride</name>
 	<trkseg>
-		<trkpt lat="39.927644" lon="-75.359463">
+		<trkpt lat="39.927622" lon="-75.359544">
 			<ele>53.50</ele>
 			<time>2017-05-09T19:53:12Z</time>
+		</trkpt>
+		<trkpt lat="39.927629" lon="-75.359497">
+			<ele>53.51</ele>
+			<time>2017-05-09T19:53:12.26Z</time>
+		</trkpt>
+		<trkpt lat="39.927641" lon="-75.359477">
+			<ele>53.52</ele>
+			<time>2017-05-09T19:53:12.48Z</time>
+		</trkpt>
+		<trkpt lat="39.927649" lon="-75.359453">
+			<ele>53.54</ele>
+			<time>2017-05-09T19:53:12.74Z</time>
+		</trkpt>
+		<trkpt lat="39.927673" lon="-75.359419">
+			<ele>53.57</ele>
+			<time>2017-05-09T19:53:13.46Z</time>
 		</trkpt>
 		<trkpt lat="39.927681" lon="-75.359384">
 			<ele>53.60</ele>
@@ -66,19 +82,19 @@
 			<ele>52.90</ele>
 			<time>2017-05-09T19:54:59Z</time>
 		</trkpt>
-		<trkpt lat="39.927821" lon="-75.358791">
+		<trkpt lat="39.927807" lon="-75.358793">
 			<ele>53.10</ele>
 			<time>2017-05-09T19:55:03Z</time>
 		</trkpt>
-		<trkpt lat="39.927800" lon="-75.358758">
+		<trkpt lat="39.927811" lon="-75.358762">
 			<ele>53.20</ele>
 			<time>2017-05-09T19:55:05Z</time>
 		</trkpt>
-		<trkpt lat="39.927839" lon="-75.358751">
+		<trkpt lat="39.927820" lon="-75.358749">
 			<ele>53.40</ele>
 			<time>2017-05-09T19:55:07Z</time>
 		</trkpt>
-		<trkpt lat="39.927809" lon="-75.358743">
+		<trkpt lat="39.927822" lon="-75.358740">
 			<ele>53.50</ele>
 			<time>2017-05-09T19:55:09Z</time>
 		</trkpt>

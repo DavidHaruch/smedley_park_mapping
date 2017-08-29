@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<name>GPS_2017-06-09_191347</name>
+	<name>sandy_under_476_to_creek_picnic_table_and_fire_pti.gpx</name>
 </metadata>
 <trk>
 	<name>Afternoon Ride</name>
@@ -302,7 +302,7 @@
 			<ele>36.30</ele>
 			<time>2017-06-09T19:15:37Z</time>
 		</trkpt>
-		<trkpt lat="39.926825" lon="-75.360820">
+		<trkpt lat="39.926826" lon="-75.360842">
 			<ele>36.60</ele>
 			<time>2017-06-09T19:15:38Z</time>
 		</trkpt>

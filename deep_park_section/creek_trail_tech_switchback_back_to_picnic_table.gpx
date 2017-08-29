@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<name>GPS_2017-06-09_192400</name>
+	<name>creek_trail_tech_switchback_back_to_picnic_table.gpx</name>
 </metadata>
 <trk>
 	<name>Afternoon Ride</name>
 	<trkseg>
-		<trkpt lat="39.927598" lon="-75.359603">
+		<trkpt lat="39.927622" lon="-75.359548">
 			<ele>54.40</ele>
 			<time>2017-06-09T19:24:00Z</time>
+		</trkpt>
+		<trkpt lat="39.927614" lon="-75.359586">
+			<ele>54.40</ele>
+			<time>2017-06-09T19:24:00.20Z</time>
+		</trkpt>
+		<trkpt lat="39.927608" lon="-75.359619">
+			<ele>54.40</ele>
+			<time>2017-06-09T19:24:00.60Z</time>
 		</trkpt>
 		<trkpt lat="39.927607" lon="-75.359640">
 			<ele>54.40</ele>
@@ -90,7 +98,19 @@
 			<ele>42.70</ele>
 			<time>2017-06-09T19:25:43Z</time>
 		</trkpt>
-		<trkpt lat="39.927412" lon="-75.360549">
+		<trkpt lat="39.927429" lon="-75.360512">
+			<ele>42.62</ele>
+			<time>2017-06-09T19:25:43.41Z</time>
+		</trkpt>
+		<trkpt lat="39.927426" lon="-75.360529">
+			<ele>42.51</ele>
+			<time>2017-06-09T19:25:43.92Z</time>
+		</trkpt>
+		<trkpt lat="39.927415" lon="-75.360541">
+			<ele>42.41</ele>
+			<time>2017-06-09T19:25:44.45Z</time>
+		</trkpt>
+		<trkpt lat="39.927412" lon="-75.360561">
 			<ele>42.30</ele>
 			<time>2017-06-09T19:25:45Z</time>
 		</trkpt>

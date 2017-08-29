@@ -1,0 +1,75 @@
+/*
+green #A5B076
+red #E98D58
+white #F5F1E6
+*/
+body {
+    margin: 0;
+    background-color: #F5F1E6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+nav {
+    background-color: #A5B076;
+    padding: 6px 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li:not(:last-of-type) {
+    margin-right: 10px;
+}
+.gm-style-mtc div {
+    font-family: 'Open Sans', sans-serif !important;
+}
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#map {
+    height: 70%;
+    width: 100%;
+}
+#legend {
+    margin: 10px;
+    color: rgb(86, 86, 86);
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    border-radius: 2px;
+    padding: 8px;
+
+}
+#legend h3 {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+#legend ul {
+    margin: 0;
+    list-style: none;
+}
+#legend li {
+    height: 16px;
+}
+#legend span {
+    height: 16px;
+    display: inline-block;
+    margin: 0 0 0 4px;
+    vertical-align: top;
+}
+#legend_singletrack {
+    height: 4px;
+    width: 16px;
+    background-color: #1e3254;
+    display: inline-block;
+    margin: 6px 0;
+}
+ul,ol {
+    padding-left: 0;
+    list-style-position: inside;
+}
